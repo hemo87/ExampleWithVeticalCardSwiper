@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		92D75327225B5E8600D931DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D75326225B5E8600D931DC /* AppDelegate.swift */; };
-		92D75329225B5E8600D931DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D75328225B5E8600D931DC /* ViewController.swift */; };
 		92D7532C225B5E8600D931DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D7532A225B5E8600D931DC /* Main.storyboard */; };
 		92D7532E225B5E8600D931DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92D7532D225B5E8600D931DC /* Assets.xcassets */; };
 		92D75331225B5E8600D931DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92D7532F225B5E8600D931DC /* LaunchScreen.storyboard */; };
+		92D75355225B60EA00D931DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D75354225B60EA00D931DC /* ViewController.swift */; };
+		92D75362225B63F900D931DC /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D75360225B63F900D931DC /* TestCell.swift */; };
+		92D75363225B63F900D931DC /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D75361225B63F900D931DC /* TestCell.xib */; };
+		F948E22DE4717E21A23E50E8 /* Pods_ExampleWithVeticalCardSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7171B6F57DAD4179195F4AAE /* Pods_ExampleWithVeticalCardSwiper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7171B6F57DAD4179195F4AAE /* Pods_ExampleWithVeticalCardSwiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleWithVeticalCardSwiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B74DE3F2374B4D33CD19AF4 /* Pods-ExampleWithVeticalCardSwiper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleWithVeticalCardSwiper.release.xcconfig"; path = "Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper.release.xcconfig"; sourceTree = "<group>"; };
 		92D75323225B5E8600D931DC /* ExampleWithVeticalCardSwiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleWithVeticalCardSwiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D75326225B5E8600D931DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92D75328225B5E8600D931DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92D7532B225B5E8600D931DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92D7532D225B5E8600D931DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92D75330225B5E8600D931DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92D75332225B5E8600D931DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D75354225B60EA00D931DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92D75360225B63F900D931DC /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		92D75361225B63F900D931DC /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		F964F58F7F7B3B4114749E45 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleWithVeticalCardSwiper.debug.xcconfig"; path = "Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F948E22DE4717E21A23E50E8 /* Pods_ExampleWithVeticalCardSwiper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017332771388FC240DC2521D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F964F58F7F7B3B4114749E45 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */,
+				8B74DE3F2374B4D33CD19AF4 /* Pods-ExampleWithVeticalCardSwiper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		92D7531A225B5E8600D931DC = {
 			isa = PBXGroup;
 			children = (
 				92D75325225B5E8600D931DC /* ExampleWithVeticalCardSwiper */,
 				92D75324225B5E8600D931DC /* Products */,
+				017332771388FC240DC2521D /* Pods */,
+				B5CC7B2A81E7B53CFAF86409 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,23 @@
 			isa = PBXGroup;
 			children = (
 				92D75326225B5E8600D931DC /* AppDelegate.swift */,
-				92D75328225B5E8600D931DC /* ViewController.swift */,
+				92D75354225B60EA00D931DC /* ViewController.swift */,
 				92D7532A225B5E8600D931DC /* Main.storyboard */,
 				92D7532D225B5E8600D931DC /* Assets.xcassets */,
 				92D7532F225B5E8600D931DC /* LaunchScreen.storyboard */,
 				92D75332225B5E8600D931DC /* Info.plist */,
+				92D75360225B63F900D931DC /* TestCell.swift */,
+				92D75361225B63F900D931DC /* TestCell.xib */,
 			);
 			path = ExampleWithVeticalCardSwiper;
+			sourceTree = "<group>";
+		};
+		B5CC7B2A81E7B53CFAF86409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7171B6F57DAD4179195F4AAE /* Pods_ExampleWithVeticalCardSwiper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92D75335225B5E8600D931DC /* Build configuration list for PBXNativeTarget "ExampleWithVeticalCardSwiper" */;
 			buildPhases = (
+				DB9CD0F811F1114DFD8F7EAF /* [CP] Check Pods Manifest.lock */,
 				92D7531F225B5E8600D931DC /* Sources */,
 				92D75320225B5E8600D931DC /* Frameworks */,
 				92D75321225B5E8600D931DC /* Resources */,
+				9EB6D464E8E6326C0067B8FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +157,68 @@
 			files = (
 				92D75331225B5E8600D931DC /* LaunchScreen.storyboard in Resources */,
 				92D7532E225B5E8600D931DC /* Assets.xcassets in Resources */,
+				92D75363225B63F900D931DC /* TestCell.xib in Resources */,
 				92D7532C225B5E8600D931DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9EB6D464E8E6326C0067B8FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VerticalCardSwiper/VerticalCardSwiper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VerticalCardSwiper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9CD0F811F1114DFD8F7EAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleWithVeticalCardSwiper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92D7531F225B5E8600D931DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D75329225B5E8600D931DC /* ViewController.swift in Sources */,
+				92D75362225B63F900D931DC /* TestCell.swift in Sources */,
 				92D75327225B5E8600D931DC /* AppDelegate.swift in Sources */,
+				92D75355225B60EA00D931DC /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +362,7 @@
 		};
 		92D75336225B5E8600D931DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F964F58F7F7B3B4114749E45 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +381,7 @@
 		};
 		92D75337225B5E8600D931DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B74DE3F2374B4D33CD19AF4 /* Pods-ExampleWithVeticalCardSwiper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TestCell" id="U6b-Vx-4bR" customClass="TestCell" customModule="ExampleWithVeticalCardSwiper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmB-yz-iGf">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+                    <color key="backgroundColor" red="0.2552213371" green="0.59372150899999998" blue="0.90104717020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUb-hr-140">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
+                    <color key="backgroundColor" red="0.85043728350000003" green="0.21816034619999999" blue="0.15920260550000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="mUb-hr-140" secondAttribute="bottom" id="7rq-fT-m41"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="tmB-yz-iGf" secondAttribute="trailing" id="RPS-MK-hOp"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="mUb-hr-140" secondAttribute="trailing" id="Wgi-bN-utc"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="tmB-yz-iGf" secondAttribute="bottom" id="X3e-uK-bnC"/>
+                <constraint firstItem="mUb-hr-140" firstAttribute="top" secondItem="VXr-Tz-HHm" secondAttribute="top" id="fWL-Vr-tM6"/>
+                <constraint firstItem="mUb-hr-140" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="ily-f0-1mm"/>
+                <constraint firstItem="tmB-yz-iGf" firstAttribute="top" secondItem="VXr-Tz-HHm" secondAttribute="top" id="l4D-wo-J2p"/>
+                <constraint firstItem="tmB-yz-iGf" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="qaz-VX-tcd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="blueView" destination="tmB-yz-iGf" id="lSm-jW-lLw"/>
+                <outlet property="redView" destination="mUb-hr-140" id="yrC-Ds-sDG"/>
+            </connections>
+            <point key="canvasLocation" x="120" y="0.89955022488755632"/>
+        </collectionReusableView>
+    </objects>
+</document>
