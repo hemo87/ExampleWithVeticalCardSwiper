@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06209CF8CB035AF6BBA03639EAE595D3 /* VerticalCardSwiperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8AA828782E14BD93A099F46B8F8360 /* VerticalCardSwiperDelegate.swift */; };
+		169D67F7FB33264CD4C0B660EE30B0BF /* VerticalCardSwiper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA96924A6C3C2FDCC3E7A67C057B6508 /* VerticalCardSwiper-dummy.m */; };
+		2101AC86DBA8FF219224028DCC76C8DF /* VerticalCardSwiper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD246169CE4136CD746D4B5C0D13AA0 /* VerticalCardSwiper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		416B8EFEC331ABD0105A42B5F9F5F726 /* PanDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B6B61376376BA84F7DE721769FBA5F /* PanDirection.swift */; };
+		4E0F695C752C89C0C6DCCE43FC116637 /* Pods-ExampleWithVeticalCardSwiper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E44FE55C52E591385937053F7572D3BA /* Pods-ExampleWithVeticalCardSwiper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64FCF63F0459A8045EB34CA197FD5B38 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881E9F731128429F1B65EA7F160768F3 /* SwipeDirection.swift */; };
+		66155CA629C228E92DDD11E953051F3C /* Pods-ExampleWithVeticalCardSwiper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE3291F6814BD451D28FA47F29D60D /* Pods-ExampleWithVeticalCardSwiper-dummy.m */; };
+		7FADC8108D3D986972CD1C26D8B40564 /* CardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2483A3DE2AE9891A48EAAF150991AD /* CardDelegate.swift */; };
+		842BD2E75786D23544750CD8C387FD99 /* VerticalCardSwiperFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60220E7B87392F12B7DF7649A3CBF41 /* VerticalCardSwiperFlowLayout.swift */; };
+		8823C655C35B2F8DD5B0A432068DD8E5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B0DD351E57C4163E46F92E8024AD6 /* Extensions.swift */; };
+		8CA8932A793AD9237C41CA5D43E02A77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8E6F87A45F8886E441A24DB76A8C6C40 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEC20B9DA7B97F0B53B20A957B71456 /* CardCell.swift */; };
+		9BD25BC6F7515D9C89B6C294EA98ABF8 /* VerticalCardSwiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42DC69249B3DE1DD4C523172C85A1B9 /* VerticalCardSwiper.swift */; };
+		C1C50EB0C6965B6E98F46D85FFA0700B /* VerticalCardSwiperDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833E5F0A35FA24A4EEC7F475FEF1FF29 /* VerticalCardSwiperDatasource.swift */; };
+		F20C4F39878AED36D5D2B3EB2A1844A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F9553DC49BD66B805369B8BBE5180A96 /* VerticalCardSwiperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E01302AEEAF63CB090385D06CC0E3B /* VerticalCardSwiperView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312C80C27E9F8A088331C9838524B5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6B8BFAF9F2AB222918575F8175345A;
+			remoteInfo = VerticalCardSwiper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133D1ECFB5EDC12E4BE5F6FC5D810681 /* Pods-ExampleWithVeticalCardSwiper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleWithVeticalCardSwiper-Info.plist"; sourceTree = "<group>"; };
+		1EEC20B9DA7B97F0B53B20A957B71456 /* CardCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = Sources/CardCell.swift; sourceTree = "<group>"; };
+		21C83CF0074F7ABA416E65A92AB04EBF /* VerticalCardSwiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VerticalCardSwiper.framework; path = VerticalCardSwiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2B0DD351E57C4163E46F92E8024AD6 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		303568D118FD5C20B6D7E01C31C73395 /* Pods_ExampleWithVeticalCardSwiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleWithVeticalCardSwiper.framework; path = "Pods-ExampleWithVeticalCardSwiper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC58DCF42A070EB68756A722F2D1476 /* Pods-ExampleWithVeticalCardSwiper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleWithVeticalCardSwiper.modulemap"; sourceTree = "<group>"; };
+		4E4E4D133D176E175FCD58769F95373E /* Pods-ExampleWithVeticalCardSwiper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleWithVeticalCardSwiper-acknowledgements.plist"; sourceTree = "<group>"; };
+		53FA52F37EE09F0A1902AD4C8A9F36C5 /* VerticalCardSwiper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VerticalCardSwiper.xcconfig; sourceTree = "<group>"; };
+		58B6B61376376BA84F7DE721769FBA5F /* PanDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanDirection.swift; path = Sources/PanDirection.swift; sourceTree = "<group>"; };
+		6710AF5F45E46A60BF7853FC61073570 /* VerticalCardSwiper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VerticalCardSwiper-Info.plist"; sourceTree = "<group>"; };
+		6C2483A3DE2AE9891A48EAAF150991AD /* CardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardDelegate.swift; path = Sources/CardDelegate.swift; sourceTree = "<group>"; };
+		6C8746CEE5D008B82C4102C6CE42E7A7 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleWithVeticalCardSwiper.debug.xcconfig"; sourceTree = "<group>"; };
+		6FFE3291F6814BD451D28FA47F29D60D /* Pods-ExampleWithVeticalCardSwiper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleWithVeticalCardSwiper-dummy.m"; sourceTree = "<group>"; };
+		833E5F0A35FA24A4EEC7F475FEF1FF29 /* VerticalCardSwiperDatasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperDatasource.swift; path = Sources/VerticalCardSwiperDatasource.swift; sourceTree = "<group>"; };
+		86F8EE61FCC1765E546788C7DD27736D /* VerticalCardSwiper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerticalCardSwiper-prefix.pch"; sourceTree = "<group>"; };
+		881E9F731128429F1B65EA7F160768F3 /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		89F2550435045625735FF588F2BCC17D /* Pods-ExampleWithVeticalCardSwiper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleWithVeticalCardSwiper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99B27D9D14C3CC6BC44E2126018F13EA /* VerticalCardSwiper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VerticalCardSwiper.modulemap; sourceTree = "<group>"; };
+		99E01302AEEAF63CB090385D06CC0E3B /* VerticalCardSwiperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperView.swift; path = Sources/VerticalCardSwiperView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C42DC69249B3DE1DD4C523172C85A1B9 /* VerticalCardSwiper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiper.swift; path = Sources/VerticalCardSwiper.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5D6BCF565D8AA4FD0244DD84CB98E64 /* Pods-ExampleWithVeticalCardSwiper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleWithVeticalCardSwiper.release.xcconfig"; sourceTree = "<group>"; };
+		DA96924A6C3C2FDCC3E7A67C057B6508 /* VerticalCardSwiper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VerticalCardSwiper-dummy.m"; sourceTree = "<group>"; };
+		DB11B6DB0E5BDD0999EE8D1A0FAF4926 /* Pods-ExampleWithVeticalCardSwiper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleWithVeticalCardSwiper-frameworks.sh"; sourceTree = "<group>"; };
+		DDD246169CE4136CD746D4B5C0D13AA0 /* VerticalCardSwiper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VerticalCardSwiper-umbrella.h"; sourceTree = "<group>"; };
+		E44FE55C52E591385937053F7572D3BA /* Pods-ExampleWithVeticalCardSwiper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleWithVeticalCardSwiper-umbrella.h"; sourceTree = "<group>"; };
+		E60220E7B87392F12B7DF7649A3CBF41 /* VerticalCardSwiperFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperFlowLayout.swift; path = Sources/VerticalCardSwiperFlowLayout.swift; sourceTree = "<group>"; };
+		EA8AA828782E14BD93A099F46B8F8360 /* VerticalCardSwiperDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalCardSwiperDelegate.swift; path = Sources/VerticalCardSwiperDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261FE018838CD075C88511DEEA59A6D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA8932A793AD9237C41CA5D43E02A77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648FEA67E6401784A6050E53388BC3A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20C4F39878AED36D5D2B3EB2A1844A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1178A07490F866096283C0ED63DC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221D326FC9E8E0124A4C03F75FB58861 /* VerticalCardSwiper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		221D326FC9E8E0124A4C03F75FB58861 /* VerticalCardSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				1EEC20B9DA7B97F0B53B20A957B71456 /* CardCell.swift */,
+				6C2483A3DE2AE9891A48EAAF150991AD /* CardDelegate.swift */,
+				2A2B0DD351E57C4163E46F92E8024AD6 /* Extensions.swift */,
+				58B6B61376376BA84F7DE721769FBA5F /* PanDirection.swift */,
+				881E9F731128429F1B65EA7F160768F3 /* SwipeDirection.swift */,
+				C42DC69249B3DE1DD4C523172C85A1B9 /* VerticalCardSwiper.swift */,
+				833E5F0A35FA24A4EEC7F475FEF1FF29 /* VerticalCardSwiperDatasource.swift */,
+				EA8AA828782E14BD93A099F46B8F8360 /* VerticalCardSwiperDelegate.swift */,
+				E60220E7B87392F12B7DF7649A3CBF41 /* VerticalCardSwiperFlowLayout.swift */,
+				99E01302AEEAF63CB090385D06CC0E3B /* VerticalCardSwiperView.swift */,
+				34DCEE5132F75F6D29AC300D0F1F5DB8 /* Support Files */,
+			);
+			name = VerticalCardSwiper;
+			path = VerticalCardSwiper;
+			sourceTree = "<group>";
+		};
+		34DCEE5132F75F6D29AC300D0F1F5DB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99B27D9D14C3CC6BC44E2126018F13EA /* VerticalCardSwiper.modulemap */,
+				53FA52F37EE09F0A1902AD4C8A9F36C5 /* VerticalCardSwiper.xcconfig */,
+				DA96924A6C3C2FDCC3E7A67C057B6508 /* VerticalCardSwiper-dummy.m */,
+				6710AF5F45E46A60BF7853FC61073570 /* VerticalCardSwiper-Info.plist */,
+				86F8EE61FCC1765E546788C7DD27736D /* VerticalCardSwiper-prefix.pch */,
+				DDD246169CE4136CD746D4B5C0D13AA0 /* VerticalCardSwiper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VerticalCardSwiper";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B37CF91223BAB4DDD00D73956DA2EC5D /* Pods-ExampleWithVeticalCardSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				3AC58DCF42A070EB68756A722F2D1476 /* Pods-ExampleWithVeticalCardSwiper.modulemap */,
+				89F2550435045625735FF588F2BCC17D /* Pods-ExampleWithVeticalCardSwiper-acknowledgements.markdown */,
+				4E4E4D133D176E175FCD58769F95373E /* Pods-ExampleWithVeticalCardSwiper-acknowledgements.plist */,
+				6FFE3291F6814BD451D28FA47F29D60D /* Pods-ExampleWithVeticalCardSwiper-dummy.m */,
+				DB11B6DB0E5BDD0999EE8D1A0FAF4926 /* Pods-ExampleWithVeticalCardSwiper-frameworks.sh */,
+				133D1ECFB5EDC12E4BE5F6FC5D810681 /* Pods-ExampleWithVeticalCardSwiper-Info.plist */,
+				E44FE55C52E591385937053F7572D3BA /* Pods-ExampleWithVeticalCardSwiper-umbrella.h */,
+				6C8746CEE5D008B82C4102C6CE42E7A7 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */,
+				D5D6BCF565D8AA4FD0244DD84CB98E64 /* Pods-ExampleWithVeticalCardSwiper.release.xcconfig */,
+			);
+			name = "Pods-ExampleWithVeticalCardSwiper";
+			path = "Target Support Files/Pods-ExampleWithVeticalCardSwiper";
+			sourceTree = "<group>";
+		};
+		BC1E9B58929606DEEE5384EDE805A307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303568D118FD5C20B6D7E01C31C73395 /* Pods_ExampleWithVeticalCardSwiper.framework */,
+				21C83CF0074F7ABA416E65A92AB04EBF /* VerticalCardSwiper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA7C698C15171EAB88A4B703E10ACA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B37CF91223BAB4DDD00D73956DA2EC5D /* Pods-ExampleWithVeticalCardSwiper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1C1178A07490F866096283C0ED63DC26 /* Pods */,
+				BC1E9B58929606DEEE5384EDE805A307 /* Products */,
+				BFA7C698C15171EAB88A4B703E10ACA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E7837139537EEAA07767EB810082E26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0F695C752C89C0C6DCCE43FC116637 /* Pods-ExampleWithVeticalCardSwiper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB70D59F86139D6E2A3AC02C87354E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2101AC86DBA8FF219224028DCC76C8DF /* VerticalCardSwiper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C6B8BFAF9F2AB222918575F8175345A /* VerticalCardSwiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5030DAB0F27C992D80B72A1CA33CC8 /* Build configuration list for PBXNativeTarget "VerticalCardSwiper" */;
+			buildPhases = (
+				4DB70D59F86139D6E2A3AC02C87354E2 /* Headers */,
+				064CF4A4B3B3601986F6D45DA18B5B3C /* Sources */,
+				648FEA67E6401784A6050E53388BC3A6 /* Frameworks */,
+				ED2A41D05A8D52F1836D74D4BB9A1CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalCardSwiper;
+			productName = VerticalCardSwiper;
+			productReference = 21C83CF0074F7ABA416E65A92AB04EBF /* VerticalCardSwiper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB6018CA58274FC859723C1B67C7758F /* Pods-ExampleWithVeticalCardSwiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6B737B4D356D2737F00F17C205B75E /* Build configuration list for PBXNativeTarget "Pods-ExampleWithVeticalCardSwiper" */;
+			buildPhases = (
+				0E7837139537EEAA07767EB810082E26 /* Headers */,
+				6E56BE4BA41358ADE304DCF0782DF6BA /* Sources */,
+				261FE018838CD075C88511DEEA59A6D7 /* Frameworks */,
+				581EBC35FD5FBCA84906D2D65A777A6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E36A23426C08EBF4D4B610C5BDF138E /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleWithVeticalCardSwiper";
+			productName = "Pods-ExampleWithVeticalCardSwiper";
+			productReference = 303568D118FD5C20B6D7E01C31C73395 /* Pods_ExampleWithVeticalCardSwiper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BC1E9B58929606DEEE5384EDE805A307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6018CA58274FC859723C1B67C7758F /* Pods-ExampleWithVeticalCardSwiper */,
+				3C6B8BFAF9F2AB222918575F8175345A /* VerticalCardSwiper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581EBC35FD5FBCA84906D2D65A777A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2A41D05A8D52F1836D74D4BB9A1CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064CF4A4B3B3601986F6D45DA18B5B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6F87A45F8886E441A24DB76A8C6C40 /* CardCell.swift in Sources */,
+				7FADC8108D3D986972CD1C26D8B40564 /* CardDelegate.swift in Sources */,
+				8823C655C35B2F8DD5B0A432068DD8E5 /* Extensions.swift in Sources */,
+				416B8EFEC331ABD0105A42B5F9F5F726 /* PanDirection.swift in Sources */,
+				64FCF63F0459A8045EB34CA197FD5B38 /* SwipeDirection.swift in Sources */,
+				169D67F7FB33264CD4C0B660EE30B0BF /* VerticalCardSwiper-dummy.m in Sources */,
+				9BD25BC6F7515D9C89B6C294EA98ABF8 /* VerticalCardSwiper.swift in Sources */,
+				C1C50EB0C6965B6E98F46D85FFA0700B /* VerticalCardSwiperDatasource.swift in Sources */,
+				06209CF8CB035AF6BBA03639EAE595D3 /* VerticalCardSwiperDelegate.swift in Sources */,
+				842BD2E75786D23544750CD8C387FD99 /* VerticalCardSwiperFlowLayout.swift in Sources */,
+				F9553DC49BD66B805369B8BBE5180A96 /* VerticalCardSwiperView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E56BE4BA41358ADE304DCF0782DF6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66155CA629C228E92DDD11E953051F3C /* Pods-ExampleWithVeticalCardSwiper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E36A23426C08EBF4D4B610C5BDF138E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VerticalCardSwiper;
+			target = 3C6B8BFAF9F2AB222918575F8175345A /* VerticalCardSwiper */;
+			targetProxy = 312C80C27E9F8A088331C9838524B5CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E227AE724E46C613EBB603D3C0F2B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FA52F37EE09F0A1902AD4C8A9F36C5 /* VerticalCardSwiper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper.modulemap";
+				PRODUCT_MODULE_NAME = VerticalCardSwiper;
+				PRODUCT_NAME = VerticalCardSwiper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97A3AF928B4EA1E8116B35BECCD3B3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D6BCF565D8AA4FD0244DD84CB98E64 /* Pods-ExampleWithVeticalCardSwiper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B98583C2FEE6CD9AA3DF894BAE6671AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53FA52F37EE09F0A1902AD4C8A9F36C5 /* VerticalCardSwiper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VerticalCardSwiper/VerticalCardSwiper.modulemap";
+				PRODUCT_MODULE_NAME = VerticalCardSwiper;
+				PRODUCT_NAME = VerticalCardSwiper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E292E5A6E844073D3A4D3D86A41CA2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8746CEE5D008B82C4102C6CE42E7A7 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5030DAB0F27C992D80B72A1CA33CC8 /* Build configuration list for PBXNativeTarget "VerticalCardSwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98583C2FEE6CD9AA3DF894BAE6671AC /* Debug */,
+				3E227AE724E46C613EBB603D3C0F2B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6B737B4D356D2737F00F17C205B75E /* Build configuration list for PBXNativeTarget "Pods-ExampleWithVeticalCardSwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E292E5A6E844073D3A4D3D86A41CA2B2 /* Debug */,
+				97A3AF928B4EA1E8116B35BECCD3B3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

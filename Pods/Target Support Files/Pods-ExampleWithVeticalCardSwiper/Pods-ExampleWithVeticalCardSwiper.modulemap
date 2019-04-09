@@ -1,0 +1,6 @@
+framework module Pods_ExampleWithVeticalCardSwiper {
+  umbrella header "Pods-ExampleWithVeticalCardSwiper-umbrella.h"
+
+  export *
+  module * { export * }
+}

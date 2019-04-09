@@ -14,6 +14,7 @@
 		92D75355225B60EA00D931DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D75354225B60EA00D931DC /* ViewController.swift */; };
 		92D75362225B63F900D931DC /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D75360225B63F900D931DC /* TestCell.swift */; };
 		92D75363225B63F900D931DC /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92D75361225B63F900D931DC /* TestCell.xib */; };
+		92D75365225B9AFB00D931DC /* UIView+Flip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D75364225B9AFB00D931DC /* UIView+Flip.swift */; };
 		F948E22DE4717E21A23E50E8 /* Pods_ExampleWithVeticalCardSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7171B6F57DAD4179195F4AAE /* Pods_ExampleWithVeticalCardSwiper.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		92D75354225B60EA00D931DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92D75360225B63F900D931DC /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
 		92D75361225B63F900D931DC /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		92D75364225B9AFB00D931DC /* UIView+Flip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Flip.swift"; sourceTree = "<group>"; };
 		F964F58F7F7B3B4114749E45 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleWithVeticalCardSwiper.debug.xcconfig"; path = "Target Support Files/Pods-ExampleWithVeticalCardSwiper/Pods-ExampleWithVeticalCardSwiper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,6 @@
 				F964F58F7F7B3B4114749E45 /* Pods-ExampleWithVeticalCardSwiper.debug.xcconfig */,
 				8B74DE3F2374B4D33CD19AF4 /* Pods-ExampleWithVeticalCardSwiper.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +84,7 @@
 				92D75332225B5E8600D931DC /* Info.plist */,
 				92D75360225B63F900D931DC /* TestCell.swift */,
 				92D75361225B63F900D931DC /* TestCell.xib */,
+				92D75364225B9AFB00D931DC /* UIView+Flip.swift */,
 			);
 			path = ExampleWithVeticalCardSwiper;
 			sourceTree = "<group>";
@@ -219,6 +221,7 @@
 				92D75362225B63F900D931DC /* TestCell.swift in Sources */,
 				92D75327225B5E8600D931DC /* AppDelegate.swift in Sources */,
 				92D75355225B60EA00D931DC /* ViewController.swift in Sources */,
+				92D75365225B9AFB00D931DC /* UIView+Flip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

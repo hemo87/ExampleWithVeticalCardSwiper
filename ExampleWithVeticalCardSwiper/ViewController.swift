@@ -20,10 +20,14 @@ class ViewController: UIViewController, VerticalCardSwiperDatasource, VerticalCa
         cardSwiper.datasource = self
         cardSwiper.delegate = self
         cardSwiper.register(nib: UINib(nibName: "TestCell", bundle: nil), forCellWithReuseIdentifier: "TestCell")
+        cardSwiper.isPreviousCardVisible = true
     }
     
     func cardForItemAt(verticalCardSwiperView: VerticalCardSwiperView, cardForItemAt index: Int) -> CardCell {
          let cell = verticalCardSwiperView.dequeueReusableCell(withReuseIdentifier: "TestCell", for: index) as! TestCell
+
+        isFlipped = false
+        cell.redView.alpha = 1
         return cell
     }
     
@@ -37,13 +41,42 @@ class ViewController: UIViewController, VerticalCardSwiperDatasource, VerticalCa
         
         let cell = verticalCardSwiperView.cellForItem(at: IndexPath(row: index, section: 0)) as! TestCell
         
-        let transitionOptions: UIView.AnimationOptions = [.transitionFlipFromRight, .showHideTransitionViews]
+//        if cell.redView.alpha == 1 {
+//            isFlipped = true
+//        } else {
+//            isFlipped = false
+//        }
+////        cell.redView.alpha = self.isFlipped ? 0 : 1
+////        cell.blueView.alpha = self.isFlipped ? 1 : 0
+
+
+//        var topView: UIView?
+//
+//        topView = isFlipped ? cell.redView : cell.blueView
         
-        UIView.transition(with: cell, duration: 1.0, options: transitionOptions, animations: {
-            print("in animation")
-            cell.redView.alpha = self.isFlipped ? 1 : 0
-            
-        })
+
+            UIView.transition(with: cell, duration: 2.0, options: [ .transitionFlipFromLeft], animations: {
+                print("in animation")
+                
+                        cell.redView.alpha = self.isFlipped ? 0 : 1
+                        cell.blueView.alpha = self.isFlipped ? 1 : 0
+                
+            })
+ 
+        
+//        UIView.animate(withDuration: 1.0, delay: 0.0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
+//            cell.transform = __CGAffineTransformMake(0, 0, 0, 0, 1, -1)
+//        }) { (Bool) in
+//
+//        }
+//
+//        [UIView animateWithDuration:0.5 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut
+//            animations:^(void) {
+//            view.transform = CGAffineTransformMakeScale(1, -1);
+//            }
+//            completion:nil];
+        
+        
 
     }
 

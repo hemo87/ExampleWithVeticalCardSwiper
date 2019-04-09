@@ -20,7 +20,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
                     <color key="backgroundColor" red="0.2552213371" green="0.59372150899999998" blue="0.90104717020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
-                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUb-hr-140">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUb-hr-140">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="260"/>
                     <color key="backgroundColor" red="0.85043728350000003" green="0.21816034619999999" blue="0.15920260550000001" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
